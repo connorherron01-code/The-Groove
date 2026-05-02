@@ -44,3 +44,27 @@ footer {font-size: 75%;
 	text-align: center;
 	padding: 2em;
 	background-color: #00ff48;}
+iframe { float: right; 
+	margin: 1em 1em 1em 1em; }
+
+#homehero { height: 600px;
+	background-image: url(records.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	}
+
+table { border-collapse: collapse;
+	border: 2px solid #3399CC; 
+	float: left;
+	margin: 25px;}
+td, th { padding: 0.5em;
+	border: 2px solid #3399CC; }
+td { text-align: center; }
+.text { text-align: left;}
+tr:nth-of-type(odd) { background-color: #F5FAFC;}
+
+form { display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap; }
+input { margin-bottom: .5em; }
+textarea { margin-bottom: .5em; }

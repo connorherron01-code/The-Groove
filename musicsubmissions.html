@@ -19,13 +19,23 @@
 	</ul>
 </nav>
 
-<div class="hero" id="homehero">
-</div>
-
 <main>
-	<h2>What Is This Place?</h2>
-	<p>TheGroove is a music review site curated by Connor Herron, providing updates and analysis of both new music, retro reviews of classics from 20 years in the past and beyond, and general analysis of specific genres. If you like what you see, you can even submit your own reviews (the link is in the footer). I hope you all enjoy what you read, and hopefully, you come away with a greater appreciation for music of all stripes. Enjoy!</p>
+	<h2>Review Request Form</h2>
+	<form action="connorherron01@gmail.com" method="post">
+		<label for="myFullName">*Full Name:</label> 
+		<input type="text" id="myFullName" name="myFullName" required>
+		<label for="myEmail">*Email:</label>
+		<input type="email" id="myEmail" name="myEmail" required>
+		<label for="AlbumAndArtist">*Album and artist:</label>
+		<input type="text" id="AlbumAndArtist" name="AlbumAndArtist" required>
+		<label for="myDetails">Tell me about the album and why you're requesting it! (Optional):</label>
+		<textarea id="myDetails" name="myDetails" rows="2" cols="30"></textarea>
+		<input type="submit" value="submit">
+	</form>
+<p>Areas with asterisks (*) are mandatory.</p>
 </main>
+
+
 
 
 <footer>
